@@ -93,6 +93,5 @@ public class Homework4_5 {
 			the_day = the_day + 31 + m2d + d;
 			System.out.print("輸入的日期為該年第" + the_day + "天");
 		}
-//		System.out.print("輸入的日期為該年第" + the_day + "天");
 	}
 }
