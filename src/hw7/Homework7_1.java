@@ -12,12 +12,12 @@ public class Homework7_1 {
 		int count1 = 0;
 		String str;
 		int count2 = 0;
+		int x;
 
 		File myFile = new File("C:\\CIA101_Workspace\\CIA10116-Homework\\src\\hw7\\Sample.txt");
 		FileReader fr = new FileReader(myFile);
-
+		
 		while ((c = fr.read()) != -1) {
-			System.out.flush();
 			count1++;
 		}
 
@@ -27,10 +27,9 @@ public class Homework7_1 {
 		BufferedReader br = new BufferedReader(fr2);
 
 		while ((str = br.readLine()) != null) {
-			System.out.flush();
 			count2++;
 		}
-
+		
 		System.out.println("Sample.txt檔案共有" + myFile.length() + "個位元組," + count1 + "個字元," + count2 + "列資料");
 
 		br.close();

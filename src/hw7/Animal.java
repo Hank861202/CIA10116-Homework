@@ -1,8 +1,5 @@
 package hw7;
 
-public class Animal {
-	public void speak() {
-		
-	}
-	
+public abstract class Animal {
+	public abstract void speak();
 }
